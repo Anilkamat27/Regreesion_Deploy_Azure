@@ -2,7 +2,7 @@
 from setuptools import find_packages,setup
 from typing import List #this will be the return type of the packages we are specifically reading
 
-HYPEN_E_DOT= 'e .'
+HYPEN_E_DOT= '-e .'
 
 def get_requirements(file_path:str)-> List[str]:
     requirements=[]
@@ -12,7 +12,7 @@ def get_requirements(file_path:str)-> List[str]:
 
         if HYPEN_E_DOT in requirements:
             requirements.remove(HYPEN_E_DOT)
-    
+    print(requirements)
     return requirements
 ## we should give requirements.txt a chance to build all the packages 
 # whenwver we install new library we should give our setup.py to build a package 
@@ -24,6 +24,6 @@ setup(
     version = '0.0.1',
     author = 'Anil Kamat',
     author_email= 'anilkamat@gmail.com',
-    install_requires = get_requirements("requirements.txt"),
+    install_requires = get_requirements("/config/workspace/requirements.txt"),
     packages = find_packages()
 )

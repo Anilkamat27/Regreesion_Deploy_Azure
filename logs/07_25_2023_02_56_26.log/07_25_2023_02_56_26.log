@@ -1,0 +1,3 @@
+[ 2023-07-25 02:56:27,433] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-25 02:56:27,434] 187 werkzeug - INFO -  * Debugger PIN: 162-612-887
+[ 2023-07-25 02:59:21,174] 187 werkzeug - INFO -  * Detected change in '/config/workspace/app.py', reloading

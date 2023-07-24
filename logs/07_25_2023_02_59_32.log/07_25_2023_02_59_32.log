@@ -1,0 +1,6 @@
+[ 2023-07-25 02:59:33,452] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-25 02:59:33,453] 187 werkzeug - INFO -  * Debugger PIN: 162-612-887
+[ 2023-07-25 02:59:51,946] 187 werkzeug - INFO - 172.18.0.2 - - [25/Jul/2023 02:59:51] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-25 02:59:52,654] 187 werkzeug - INFO - 172.18.0.2 - - [25/Jul/2023 02:59:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-25 03:00:12,031] 63 root - INFO - Dataframe Gathered
+[ 2023-07-25 03:00:12,111] 187 werkzeug - INFO - 172.18.0.2 - - [25/Jul/2023 03:00:12] "POST /predict HTTP/1.1" 200 -

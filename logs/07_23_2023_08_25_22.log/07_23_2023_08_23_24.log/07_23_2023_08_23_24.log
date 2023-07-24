@@ -1,0 +1,3 @@
+[ 2023-07-23 08:23:25,519] 24 root - INFO - Data Ingestion methods starts
+[ 2023-07-23 08:23:25,698] 27 root - INFO - Dataset read as pandas Dataframe
+[ 2023-07-23 08:23:25,698] 45 root - INFO - Exception Occured at Data Ingestion stage

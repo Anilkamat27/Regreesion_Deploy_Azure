@@ -1,0 +1,12 @@
+[ 2023-07-24 15:38:57,651] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-24 15:38:57,652] 187 werkzeug - INFO -  * Debugger PIN: 627-925-210
+[ 2023-07-24 15:39:18,191] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:39:18] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-24 15:39:18,869] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:39:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-24 15:39:36,638] 63 root - INFO - Dataframe Gathered
+[ 2023-07-24 15:39:36,716] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:39:36] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-24 15:53:53,438] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:53:53] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-24 15:54:06,326] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:54:06] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-24 15:54:06,933] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:54:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-24 15:54:41,896] 63 root - INFO - Dataframe Gathered
+[ 2023-07-24 15:54:41,904] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:54:41] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-24 15:59:38,870] 187 werkzeug - INFO -  * Detected change in '/config/workspace/app.py', reloading

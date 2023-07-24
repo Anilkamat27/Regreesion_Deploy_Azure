@@ -50,7 +50,11 @@ class ModelTrainer:
             print(f'Best Model Found , Model Name : {best_model_name} , R2 Score : {best_model_score}')
             print('\n====================================================================================\n')
             logging.info(f'Best Model Found , Model Name : {best_model_name} , R2 Score : {best_model_score}')
-
+            
+            save_object(
+                 file_path=self.model_trainer_config.trained_model_file_path,
+                 obj=best_model
+            )
         except Exception as e:
             logging.info('Exception occured at Model Training')
             raise CustomException(e,sys)

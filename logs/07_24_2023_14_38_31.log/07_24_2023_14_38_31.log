@@ -1,0 +1,8 @@
+[ 2023-07-24 14:38:32,173] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-24 14:38:32,174] 187 werkzeug - INFO -  * Debugger PIN: 627-925-210
+[ 2023-07-24 14:44:01,118] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 14:44:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-07-24 14:44:01,326] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 14:44:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-07-24 14:44:01,328] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 14:44:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-07-24 14:44:01,467] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 14:44:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-07-24 14:44:01,960] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 14:44:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-07-24 14:45:35,052] 187 werkzeug - INFO -  * Detected change in '/config/workspace/app.py', reloading

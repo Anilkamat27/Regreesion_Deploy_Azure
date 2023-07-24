@@ -1,0 +1,13 @@
+[ 2023-07-24 15:35:49,328] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-24 15:35:49,329] 187 werkzeug - INFO -  * Debugger PIN: 627-925-210
+[ 2023-07-24 15:36:06,643] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:36:06] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-24 15:36:07,336] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:36:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-24 15:36:31,093] 63 root - INFO - Dataframe Gathered
+[ 2023-07-24 15:36:31,156] 54 root - INFO - Exception Occured in loading object function from util
+[ 2023-07-24 15:36:31,157] 23 root - INFO - Exception occured in prediction
+[ 2023-07-24 15:36:31,163] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:36:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-24 15:36:31,254] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:36:31] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-07-24 15:36:31,256] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:36:31] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-07-24 15:36:31,448] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:36:31] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-07-24 15:36:31,738] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 15:36:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-07-24 15:38:45,876] 187 werkzeug - INFO -  * Detected change in '/config/workspace/app.py', reloading

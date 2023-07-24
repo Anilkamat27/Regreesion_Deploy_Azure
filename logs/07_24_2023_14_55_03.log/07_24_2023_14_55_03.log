@@ -1,0 +1,5 @@
+[ 2023-07-24 14:55:04,834] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-24 14:55:04,835] 187 werkzeug - INFO -  * Debugger PIN: 627-925-210
+[ 2023-07-24 14:55:25,452] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 14:55:25] "GET / HTTP/1.1" 200 -
+[ 2023-07-24 14:55:25,989] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 14:55:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-24 14:59:34,837] 187 werkzeug - INFO -  * Detected change in '/config/workspace/app.py', reloading

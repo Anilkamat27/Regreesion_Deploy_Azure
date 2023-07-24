@@ -1,0 +1,10 @@
+[ 2023-07-24 15:59:40,237] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-24 15:59:40,238] 187 werkzeug - INFO -  * Debugger PIN: 627-925-210
+[ 2023-07-24 15:59:40,396] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-24 15:59:40,397] 187 werkzeug - INFO -  * Debugger PIN: 627-925-210
+[ 2023-07-24 15:59:40,465] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-24 15:59:40,466] 187 werkzeug - INFO -  * Debugger PIN: 627-925-210
+[ 2023-07-24 16:00:14,059] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 16:00:14] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-24 16:00:35,212] 63 root - INFO - Dataframe Gathered
+[ 2023-07-24 16:00:35,292] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 16:00:35] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-24 16:05:40,542] 187 werkzeug - INFO - 172.18.0.2 - - [24/Jul/2023 16:05:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
